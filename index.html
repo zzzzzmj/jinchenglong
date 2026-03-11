@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英雄永不谢幕 · 青春薪火相传</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="app">
+
+<!-- 首页 -->
+<section id="home" class="page active">
+<h1>英雄永不谢幕</h1>
+<h2>青春薪火相传</h2>
+<p>学习金城龙同志先进事迹<br>开启答题闯关挑战</p>
+<button onclick="startGame()">开始挑战</button>
+</section>
+
+<!-- 事迹介绍 -->
+<section id="intro" class="page">
+<h2>英雄事迹</h2>
+
+<p>
+金城龙同志信念坚定、无私奉献，在工作和生活中始终坚持
+服务人民、勇于担当，用实际行动诠释了新时代青年的责任与使命。
+</p>
+
+<p>
+他的事迹激励着青年一代在新时代中勇敢前行，
+将个人理想融入国家发展与社会进步。
+</p>
+
+<button onclick="startQuiz()">进入闯关</button>
+</section>
+
+<!-- 答题 -->
+<section id="quiz" class="page">
+
+<div id="progress"></div>
+
+<h3 id="question"></h3>
+
+<div id="options"></div>
+
+<p id="result"></p>
+
+</section>
+
+<!-- 结束 -->
+<section id="end" class="page">
+<h2>闯关完成 🎉</h2>
+<p id="score"></p>
+<p>传承英雄精神 · 青春勇担使命</p>
+<button onclick="restart()">重新挑战</button>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

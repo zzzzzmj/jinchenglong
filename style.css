@@ -1,0 +1,61 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f2f2f2;
+text-align:center;
+}
+
+.page{
+display:none;
+padding:40px 20px;
+}
+
+.active{
+display:block;
+}
+
+h1{
+color:#c40000;
+font-size:32px;
+}
+
+button{
+padding:12px 25px;
+font-size:16px;
+border:none;
+background:#c40000;
+color:white;
+border-radius:8px;
+margin-top:20px;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+#options button{
+display:block;
+margin:10px auto;
+width:80%;
+background:#ffffff;
+color:#333;
+border:1px solid #ddd;
+}
+
+#options button:hover{
+background:#ffecec;
+}
+
+#progress{
+height:10px;
+background:#ddd;
+margin-bottom:20px;
+}
+
+#progress::after{
+content:'';
+display:block;
+height:100%;
+background:#c40000;
+width:0%;
+}
